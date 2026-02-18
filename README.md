@@ -2,7 +2,7 @@
 
 A command-line based Employee Leave Management System built with Java, demonstrating core Object-Oriented Programming principles and design patterns. This system provides comprehensive functionality for managing employees, teams, and various types of leave applications with robust validation and error handling.
 
-##  able of Contents
+##  Table of Contents
 - [Features](#features)
 - [System Architecture](#system-architecture)
 - [Design Patterns](#design-patterns)
@@ -308,6 +308,7 @@ Aashil Hussain
 ---
 
 **Note**: This system was developed as a coursework project to demonstrate OOP principles and software design patterns in Java.
+
 
 
 
