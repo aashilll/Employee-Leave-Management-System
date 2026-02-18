@@ -298,16 +298,6 @@ The system includes comprehensive exception handling for business rule validatio
    - Acting heads must be team members
    - One acting head per team during leader's absence
 
-## 🎓 Learning Outcomes
-
-This project demonstrates proficiency in:
-- **Object-Oriented Design**: Proper use of classes, inheritance, polymorphism, and encapsulation
-- **Design Patterns**: Implementation of Command, Singleton, and Template Method patterns
-- **Data Structures**: Effective use of Java Collections Framework
-- **Exception Handling**: Custom exception hierarchy for business logic validation
-- **Software Architecture**: Layered architecture with separation of concerns
-- **Code Organization**: Clean, maintainable, and extensible codebase
-- **Business Logic Implementation**: Complex rule validation and constraint handling
 
 
 ## Author
@@ -318,5 +308,6 @@ Aashil Hussain
 ---
 
 **Note**: This system was developed as a coursework project to demonstrate OOP principles and software design patterns in Java.
+
 
 
