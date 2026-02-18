@@ -2,7 +2,7 @@
 
 A command-line based Employee Leave Management System built with Java, demonstrating core Object-Oriented Programming principles and design patterns. This system provides comprehensive functionality for managing employees, teams, and various types of leave applications with robust validation and error handling.
 
-## 📋 Table of Contents
+##  able of Contents
 - [Features](#features)
 - [System Architecture](#system-architecture)
 - [Design Patterns](#design-patterns)
@@ -14,7 +14,7 @@ A command-line based Employee Leave Management System built with Java, demonstra
 - [Exception Handling](#exception-handling)
 - [Project Structure](#project-structure)
 
-## ✨ Features
+## Features
 
 ### Core Functionality
 - **Employee Management**: Hire employees with customizable annual leave entitlements
@@ -32,7 +32,7 @@ A command-line based Employee Leave Management System built with Java, demonstra
 - **Comprehensive Validation**: Multiple layers of business rule validation
 - **Sorted Data Management**: Automatic alphabetical sorting of employees and teams
 
-## 🏗️ System Architecture
+## System Architecture
 
 The system follows a layered architecture with clear separation of concerns:
 
@@ -64,7 +64,7 @@ The system follows a layered architecture with clear separation of concerns:
 └─────────────────────────────────────┘
 ```
 
-## 🎯 Design Patterns
+## Design Patterns
 
 ### 1. **Command Pattern**
 All user operations are encapsulated as command objects implementing the `Command` interface, enabling:
@@ -84,7 +84,7 @@ All user operations are encapsulated as command objects implementing the `Comman
 - Different leave types (`LeaveRecordAL`, `LeaveRecordBL`, `LeaveRecordSL`, `LeaveRecordNL`) extend `LeaveRecord`
 - Each leave type can have specific validation rules
 
-## 📅 Leave Types
+##  Leave Types
 
 ### 1. Annual Leave (AL)
 - Deducted from employee's annual leave balance
@@ -108,7 +108,7 @@ All user operations are encapsulated as command objects implementing the `Comman
 - Used when leave balances are exhausted
 - **Validation**: No overlap with existing leaves
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Language**: Java
 - **Programming Paradigm**: Object-Oriented Programming (OOP)
@@ -116,7 +116,7 @@ All user operations are encapsulated as command objects implementing the `Comman
 - **I/O**: File-based input processing
 - **Design Principles**: SOLID principles, Encapsulation, Polymorphism, Abstraction
 
-## 💻 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Java Development Kit (JDK) 8 or higher
@@ -146,7 +146,7 @@ All user operations are encapsulated as command objects implementing the `Comman
    Please input the file pathname: commands.txt
    ```
 
-## 📖 Usage
+## Usage
 
 ### Input File Format
 Commands are read from a text file with pipe-delimited format:
@@ -183,7 +183,7 @@ Done.
 05-Jan-2025 to 07-Jan-2025 [AL] (3 days)
 ```
 
-## 📝 Available Commands
+## Available Commands
 
 | Command | Format | Description |
 |---------|--------|-------------|
@@ -207,7 +207,7 @@ applyLeave|John|AL|05-Jan-2025|10-Jan-2025|TeamA|Alice|TeamB|Bob
 ```
 - Format: `applyLeave|LeaderName|LeaveType|Start|End|Team1|ActingHead1|Team2|ActingHead2|...`
 
-## ⚠️ Exception Handling
+## Exception Handling
 
 The system includes comprehensive exception handling for business rule validation:
 
@@ -237,7 +237,7 @@ The system includes comprehensive exception handling for business rule validatio
 - `ExInsufficientArguments`: Missing command parameters
 - `ExAnnualLeavesOutOfRange`: Invalid annual leave entitlement
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ├── Main.java                          # Entry point, file processing
@@ -277,7 +277,7 @@ The system includes comprehensive exception handling for business rule validatio
     └── ... (16+ custom exceptions)
 ```
 
-## 🧪 Key Business Rules
+## Key Business Rules
 
 1. **Leave Balance Management**
    - Annual leave: Employee-specific entitlement
@@ -309,17 +309,14 @@ This project demonstrates proficiency in:
 - **Code Organization**: Clean, maintainable, and extensible codebase
 - **Business Logic Implementation**: Complex rule validation and constraint handling
 
-## 📄 License
 
-This project was developed as part of academic coursework for CS2312.
+## Author
 
-## 👤 Author
+Aashil Hussain 
 
-[Your Name]  
-[Your Email]  
-[LinkedIn Profile]
 
 ---
 
 **Note**: This system was developed as a coursework project to demonstrate OOP principles and software design patterns in Java.
+
 
